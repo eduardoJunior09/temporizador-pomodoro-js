@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temporizador Pomodoro</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <header>
+          <span id="focado" class="select selected
+          ">Focado</span>
+          <span id="intervalo" class="select
+          ">Intervalo</span>
+        </header>
+        <main>
+          <h1 id="stopwatch">25:00</h1>
+        </main>
+        <footer>
+          <button id="start" class="button-css" onclick="start()">
+            <i class="fa fa-play-circle" aria-hidden="true"></i>
+          </button>
+          <button id="pause" class="button-css" onclick="pause()">
+            <i class="fa fa-pause-circle" aria-hidden="true"></i>
+          </button>
+          <button id="stop" class="button-css" onclick="stop()">
+            <i class="fa fa-stop-circle" aria-hidden="true"></i>
+          </button>
+        </footer>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
