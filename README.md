@@ -7,7 +7,7 @@
 - CSS
 - JavaScript
 
-<p>Disponível em:</p>    
+<p>Disponível em: https://eduardojunior09.github.io/temporizador-pomodoro-js/</p>    
 
 <h3>Interface:</h3>
 
