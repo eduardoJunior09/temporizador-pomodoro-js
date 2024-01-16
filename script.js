@@ -5,7 +5,7 @@ const intervalo = document.getElementById("intervalo");
 let minutes = 24;
 let seconds = 60;
 let interval;
-let stored;
+let stored = minutes;
 
 focado.addEventListener("click", function () {
   minutes = 24;
@@ -22,8 +22,6 @@ intervalo.addEventListener("click", function () {
   intervalo.classList.add("selected");
   focado.classList.remove("selected");
 });
-
-console.log(minutes);
 
 function start() {
   clock();
